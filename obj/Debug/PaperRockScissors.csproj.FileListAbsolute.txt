@@ -1,0 +1,15 @@
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\bin\Debug\PaperRockScissors.exe.config
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\bin\Debug\PaperRockScissors.exe
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\bin\Debug\PaperRockScissors.pdb
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.csprojAssemblyReference.cache
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\MainWindow.g.cs
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\App.g.cs
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors_MarkupCompile.cache
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors_MarkupCompile.lref
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\MainWindow.baml
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.g.resources
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.Properties.Resources.resources
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.csproj.GenerateResource.cache
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.csproj.CoreCompileInputs.cache
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.exe
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.pdb
