@@ -6,6 +6,15 @@
         xmlns:local="clr-namespace:PaperRockScissors"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="StylesDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
     <Grid>
         <Label Width="150" Content="Round: " FontSize="40"
                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
@@ -13,24 +22,23 @@
         <Label Content="1" FontSize="40" Margin="451,0,291,359" Width="50" Height="60"
                VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
 
-        <Border x:Name="imaeg1Border" Height="200" Width="100" BorderThickness="1"
-                BorderBrush="Black" Margin="250,72,442,147">
-            <Image Height="{Binding ElementName=imaeg1Border, Path=Height}"
-                   Width="{Binding ElementName=imaeg1Border, Path=Width}" Margin="-1" />
+        <Border x:Name="imaeg1Border" BorderThickness="1"
+                BorderBrush="Black" Width="150" Height="150" Margin="140,70,452,149">
+            <Image x:Name="playerMoveImage" Height="{Binding ElementName=imaeg1Border, Path=Height}"
+                   Width="{Binding ElementName=imaeg1Border, Path=Width}"
+                   Source="Images/rock.png" />
         </Border>
-        <Border x:Name="imaeg2Border" Height="200" Width="100" BorderThickness="1"
-                BorderBrush="Black" Margin="435,77,257,142">
-            <Image Height="{Binding ElementName=imaeg1Border, Path=Height}"
-                   Width="{Binding ElementName=imaeg1Border, Path=Width}" />
+        <Border x:Name="imaeg2Border" BorderThickness="1"
+                BorderBrush="Black" Width="150" Height="150" Margin="510,93,132,176" >
+            <Image Source="Images/rpaper.png" Margin="0,0,-1,-1"  />
         </Border>
         <Label Content="Choose your weapon" Height="50" Width="200" FontSize="20"
                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-               Margin="301,277,291,92" />
-        <Button Height="75" Width="75" Margin="253,327,464,17" Content="P"
-                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
-        <Button Height="75" Width="75" Margin="362,327,354,17" Content="R"
-                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
-        <Button Height="75" Width="75" Margin="470,327,247,17" Content="S"
-                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+               Margin="312,275,280,94" />
+        <Image x:Name="paperImage" Width="75" Height="75" Source="Images/paper.png"
+               Margin="282,325,434,19" 
+               MouseLeftButtonDown="paperImage_MouseLeftButtonDown" />
+        <Image Width="75" Height="75" Source="Images/rock.png" Margin="371,325,346,19" />
+        <Image Width="75" Height="75" Source="Images/scissors.png" Margin="461,325,256,19" />
     </Grid>
 </Window>

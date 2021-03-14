@@ -13,3 +13,4 @@ C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\Pap
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.csproj.CoreCompileInputs.cache
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.exe
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.pdb
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\StylesDictionary.baml
