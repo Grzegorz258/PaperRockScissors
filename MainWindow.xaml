@@ -28,17 +28,23 @@
                    Width="{Binding ElementName=imaeg1Border, Path=Width}"
                    Source="Images/rock.png" />
         </Border>
+        
         <Border x:Name="imaeg2Border" BorderThickness="1"
                 BorderBrush="Black" Width="150" Height="150" Margin="510,93,132,176" >
-            <Image Source="Images/rpaper.png" Margin="0,0,-1,-1"  />
+            <Image x:Name="enemyMoveImage" Source="Images/rpaper.png" Margin="0,0,-1,-1"  />
         </Border>
+        
         <Label Content="Choose your weapon" Height="50" Width="200" FontSize="20"
                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                Margin="312,275,280,94" />
+        
         <Image x:Name="paperImage" Width="75" Height="75" Source="Images/paper.png"
                Margin="282,325,434,19" 
                MouseLeftButtonDown="paperImage_MouseLeftButtonDown" />
-        <Image Width="75" Height="75" Source="Images/rock.png" Margin="371,325,346,19" />
-        <Image Width="75" Height="75" Source="Images/scissors.png" Margin="461,325,256,19" />
+
+        <Image x:Name="rockImage" Width="75" Height="75" Source="Images/rock.png" 
+               Margin="371,325,346,19" MouseLeftButtonDown="rockImage_MouseLeftButtonDown" />
+        <Image x:Name="scissorsImage" Width="75" Height="75" Source="Images/scissors.png"
+               Margin="461,325,256,19" MouseLeftButtonDown="scissorsImage_MouseLeftButtonDown" />
     </Grid>
 </Window>
