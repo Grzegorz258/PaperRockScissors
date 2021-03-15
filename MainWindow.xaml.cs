@@ -29,6 +29,8 @@ namespace PaperRockScissors
         #region VariableData
         static int playerMove;
         static int enemyMove;
+        static int player_Wins = 0;
+        static int enemy_Wins = 0; 
         #endregion
 
         public MainWindow()
@@ -43,10 +45,12 @@ namespace PaperRockScissors
             if(enemyMove==ROCK_ID)
             {
                 MessageBox.Show("You won");
+                addPlayerWins();
             }
             else if(enemyMove==SCISSORD_ID)
             {
                 MessageBox.Show("You loose");
+                addEnemyWins();
             }
             else MessageBox.Show("Tie");
         }
@@ -59,10 +63,12 @@ namespace PaperRockScissors
             if (enemyMove == SCISSORD_ID)
             {
                 MessageBox.Show("You won");
+                addPlayerWins();
             }
             else if (enemyMove == PAPER_ID)
             {
                 MessageBox.Show("You loose");
+                addEnemyWins();
             }
             else MessageBox.Show("Tie");
         }
@@ -74,10 +80,12 @@ namespace PaperRockScissors
             if (enemyMove == PAPER_ID)
             {
                 MessageBox.Show("You won");
+                addPlayerWins();
             }
             else if (enemyMove == ROCK_ID)
             {
                 MessageBox.Show("You loose");
+                addEnemyWins();
             }
             else MessageBox.Show("Tie");
         }
@@ -101,6 +109,17 @@ namespace PaperRockScissors
                 enemyMoveImage.Source = invertScissorsIcon;
                 return SCISSORD_ID;
             }
+        }
+
+        private void addPlayerWins()
+        {
+            player_Wins++;
+            playerWins.PointsContent = player_Wins.ToString();
+        }
+        private void addEnemyWins()
+        {
+            enemy_Wins++;
+            enemyWins.PointsContent = enemy_Wins.ToString();
         }
     }
 }

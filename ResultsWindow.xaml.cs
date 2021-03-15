@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TicTacToe
+namespace PaperRockScissors
 {
     /// <summary>
     /// Logika interakcji dla klasy ResultsWindow.xaml
@@ -53,12 +53,32 @@ namespace TicTacToe
         // Using a DependencyProperty as the backing store for WhosePointsContentProperty.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty WhosePointsContentProperty =
             DependencyProperty.Register("WhosePointsContent", typeof(string), typeof(ResultsWindow),
-            new FrameworkPropertyMetadata("Some content", new PropertyChangedCallback((s,e) =>
+            new FrameworkPropertyMetadata("S", new PropertyChangedCallback((s,e) =>
             {
                 var window = s as ResultsWindow;
                 window.WhosePoints.Content = (string)e.NewValue;
             }
             )));
+
+
+
+        public int WhosePointsFontSize
+        {
+            get { return (int)GetValue(WhosePointsFontSizeProperty); }
+            set { SetValue(WhosePointsFontSizeProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for WhosePointsFontSize.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty WhosePointsFontSizeProperty =
+            DependencyProperty.Register("WhosePointsFontSize", typeof(int), typeof(ResultsWindow),
+            new FrameworkPropertyMetadata(10, new PropertyChangedCallback((s, e) =>
+            {
+                var window = s as ResultsWindow;
+                window.WhosePoints.FontSize = (int)e.NewValue;
+            }
+            )));
+
+
 
 
 
