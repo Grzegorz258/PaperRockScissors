@@ -14,3 +14,5 @@ C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\Pap
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.exe
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.pdb
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\StylesDictionary.baml
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\ResultsWindow.g.cs
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\ResultsWindow.baml

@@ -14,7 +14,7 @@ namespace PaperRockScissors
     
     public partial class MainWindow : Window
     {
-
+        #region ConstansData
         BitmapImage paperIcon = new BitmapImage(new Uri("Images/paper.png", UriKind.RelativeOrAbsolute));
         BitmapImage rockIcon = new BitmapImage(new Uri("Images/rock.png", UriKind.RelativeOrAbsolute));
         BitmapImage scissorsIcon = new BitmapImage(new Uri("Images/scissors.png", UriKind.RelativeOrAbsolute));
@@ -24,8 +24,12 @@ namespace PaperRockScissors
         const int PAPER_ID = 1;
         const int ROCK_ID = 2;
         const int SCISSORD_ID = 3;
+        #endregion
+
+        #region VariableData
         static int playerMove;
         static int enemyMove;
+        #endregion
 
         public MainWindow()
         {
