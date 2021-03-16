@@ -37,6 +37,7 @@ namespace PaperRockScissors
         {
             InitializeComponent();
         }
+        #region SelectionsImagesClicks
         private void paperImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             playerMoveImage.Source = paperIcon;
@@ -54,6 +55,7 @@ namespace PaperRockScissors
             }
             else MessageBox.Show("Tie");
         }
+        
         private void rockImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
 
@@ -110,7 +112,9 @@ namespace PaperRockScissors
                 return SCISSORD_ID;
             }
         }
+        #endregion
 
+        #region AddPointsFunctions
         private void addPlayerWins()
         {
             player_Wins++;
@@ -121,5 +125,6 @@ namespace PaperRockScissors
             enemy_Wins++;
             enemyWins.PointsContent = enemy_Wins.ToString();
         }
+        #endregion
     }
 }

@@ -16,11 +16,11 @@
     </Window.Resources>
 
     <Grid>
-        <Label Width="150" Content="Round: " FontSize="40"
-               HorizontalContentAlignment="Center" VerticalContentAlignment="Center" 
+        <TextBlock  Width="150" Text="Rounds: " FontSize="40"
+               HorizontalAlignment="Center" VerticalAlignment="Center" 
                Margin="312,-1,330,355" />
-        <Label Content="1" FontSize="40" Margin="451,0,291,359" Width="50" Height="60"
-               VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <TextBlock Grid.Row="1" Text="1" FontSize="40" Margin="462,5,304,361" Width="26" Height="53"
+               VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
         <Border x:Name="imaeg1Border" BorderThickness="1"
                 BorderBrush="Black" Margin="150,93,500,176">
@@ -32,7 +32,7 @@
             <Image x:Name="enemyMoveImage" Source="Images/rpaper.png"  />
         </Border>
 
-        <Label Content="Choose your weapon" Height="50" Width="200" FontSize="20"
+        <Label  Content="Choose your weapon" Height="50" Width="200" FontSize="20"
                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                Margin="300,275,300,94" />
 

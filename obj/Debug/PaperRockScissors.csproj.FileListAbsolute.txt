@@ -16,3 +16,4 @@ C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\Sty
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\ResultsWindow.g.cs
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\ResultsWindow.baml
 C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\qwert\OneDrive\Pulpit\Programowanie\GIT\PaperRockScissors\obj\Debug\PaperRockScissors.csprojAssemblyReference.cache
